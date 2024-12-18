@@ -114,8 +114,8 @@ const Stopwatch = () => {
             key={lap.id} 
             className="bg-white p-3 rounded-lg shadow-sm flex justify-between items-center"
           >
-            <span className="font-medium text-orange-700">Lap {lap.id}</span>
-            <span className="font-mono text-orange-900">{formatTime(lap.time)}</span>
+            <span className="font-medium text-gray-700">Lap {lap.id}</span>
+            <span className="font-mono text-gray-900">{formatTime(lap.time)}</span>
           </div>
         ))}
       </div>
